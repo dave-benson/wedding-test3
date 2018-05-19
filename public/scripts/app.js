@@ -65,7 +65,7 @@ function initializeClock(id, endtime) {
   var timeinterval = setInterval(updateClock, 1000);
 }
 
-var deadline = new Date("Sep 5, 2018 15:37:25").getTime();
+var deadline = new Date("Jun 5, 2018 15:37:25").getTime();
 initializeClock('clockdiv', deadline);
       
         display.textContent = minutes + ":" + seconds; 
