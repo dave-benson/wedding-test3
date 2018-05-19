@@ -7,7 +7,7 @@
              .then(function() { console.log('Service Worker Registered'); });
   }
 })();
-var deadline = new Date("dec 31, 2017 15:37:25").getTime();
+var deadline = new Date("dec 31, 2018 15:37:25").getTime();
  
 var x = setInterval(function() {
  
