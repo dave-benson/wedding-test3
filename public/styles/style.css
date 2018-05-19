@@ -107,13 +107,13 @@ body {
           flex: 1; }
 body{
 	text-align: center;
-	background: #00ECB9;
+	background: #4d85ae;
   font-family: sans-serif;
   font-weight: 100;
 }
 
 h1{
-  color: #396;
+  color: #173939;
   font-weight: 100;
   font-size: 40px;
   margin: 40px 0px 20px;
@@ -131,14 +131,14 @@ h1{
 #clockdiv > div{
 	padding: 10px;
 	border-radius: 3px;
-	background: #00BF96;
+	background: #4d85ae;
 	display: inline-block;
 }
 
 #clockdiv div > span{
 	padding: 15px;
 	border-radius: 3px;
-	background: #00816A;
+	background: #0e6774;
 	display: inline-block;
 }
 
