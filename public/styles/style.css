@@ -2,8 +2,7 @@
 .topnav {
     background-color: #FFF;
     overflow: hidden;
-padding: 0px;
-	border-radius: 0px;
+margin: 0px 0px 0px;
 }
 
 /* Style the links inside the navigation bar */
