@@ -74,7 +74,6 @@ h1{
 
 #weddingcountdown{
 	padding: 0.5em
-	margin: 0.5em 0.5em 0.5em
 }
 #weddingcountdown > div{
 
@@ -105,7 +104,7 @@ h1{
 #clockdiv div > span{
 	padding: 0.1em;
 	min-width: 33.375px
-	border-radius: 2em;
+	/*border-radius: 1em;*/
 	background: #A5C4D4;
 	display: inline-block;
 }
