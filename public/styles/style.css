@@ -96,6 +96,7 @@ h1{
 
 #clockdiv > div{
 	padding: 0.1em;
+	min-width: 42px
 	border-radius: 0.1em;
 	background: #FA8334;
 	display: inline-block;
