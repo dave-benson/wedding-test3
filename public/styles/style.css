@@ -71,6 +71,16 @@ h1{
   margin: 40px 0px 20px;
 }
 
+#weddingcountdown{
+
+	padding: 10px;
+	border-radius: 3px;
+	background: #FFF;
+	display: inline-block;
+}
+
+
+
 #clockdiv{
 	font-family: sans-serif;
 	color: #593F62;
