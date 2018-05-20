@@ -68,17 +68,17 @@ h1{
   color: #271033;
   font-weight: 100;
   font-size: 40px;
-  margin: 20px 0px 20px;
+  margin: 1em 0em 1em;
 }
 
 
 #weddingcountdown{
-	padding: 10%
+	padding: 1em
 }
 #weddingcountdown > div{
 
-	padding: 10px;
-	border-radius: 3px;
+	padding: 1em;
+	border-radius: 0.5em;
 	background: #FFFD77;
 	display: inline-block;
 }
@@ -95,21 +95,21 @@ h1{
 }
 
 #clockdiv > div{
-	padding: 10px;
-	border-radius: 3px;
+	padding: 1em;
+	border-radius: 0.5em;
 	background: #FA8334;
 	display: inline-block;
 }
 
 #clockdiv div > span{
-	padding: 15px;
-	border-radius: 3px;
+	padding: 1em;
+	border-radius: 0.5em;
 	background: #A5C4D4;
 	display: inline-block;
 }
 
 .smalltext{
-	padding-top: 5px;
+	padding-top: 0.5em;
 	font-size: 16px;
 	color: #A5C4D4;
 }
