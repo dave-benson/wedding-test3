@@ -71,7 +71,7 @@ h1{
   margin: 40px 0px 20px;
 }
 
-#weddingcountdown{
+#weddingcountdown > div{
 
 	padding: 10px;
 	border-radius: 3px;
