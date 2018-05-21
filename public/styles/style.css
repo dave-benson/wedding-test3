@@ -67,19 +67,19 @@ body{
 h1{
   color: #271033;
   font-weight: 100;
-  font-size: 40px;
-  margin: 0.1em 0em 0.1em;
+  font-size: 20px;
+  margin: 0em 0em 0.5em;
 }
 
 
 #weddingcountdown{
-	padding: 0.5em
+	padding: 1em
 }
 #weddingcountdown > div{
 
-	padding: 0.1em;
-	border-radius: 0.1em;
-	background: #FFFD77;
+	padding: 16px;
+	border-radius: 0px;
+	background: #D3D3D3;
 	display: inline-block;
 }
 
@@ -88,30 +88,31 @@ h1{
 #clockdiv{
 	font-family: sans-serif;
 	color: #593F62;
-	display: inline-block;
+	/*display: inline-block;*/
 	font-weight: 100;
 	text-align: center;
 	font-size: 30px;
+  min-width: 50px;
 }
 
 #clockdiv > div{
-	padding: 0.1em;
-	min-width: 42px
-	border-radius: 0.1em;
-	background: #FA8334;
+	padding: 4px;
+	min-width: 50px;
+	border-radius: 0em;
+	background: #271033;
 	display: inline-block;
 }
 
 #clockdiv div > span{
-	padding: 0.1em;
-	min-width: 33.375px
-	border-radius: 0.1em;
+	padding: 0em;
+	min-width: 40px;
+	border-radius: 0em;
 	background: #A5C4D4;
 	display: inline-block;
 }
 
 .smalltext{
-	padding-top: 0.1em;
-	font-size: 16px;
+	padding-top: 0em;
+	font-size: 1.5em;
 	color: #A5C4D4;
 }
