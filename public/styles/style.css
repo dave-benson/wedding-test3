@@ -66,8 +66,8 @@ margin: 0px 0px 0px;
 /* Create three equal columns that floats next to each other */
 .column {
     float: left;
-    width: 33.33%;
-    padding: 15px;
+    width: 33%;
+    padding: 3px;
 }
 
 /* Clear floats after the columns */
