@@ -1,6 +1,50 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:400,400i,800");
 @import "compass/css3";
 
+
+
+
+//Convert px to em
+@function em($px, $base: $base-font-size) {
+  @return ($px / $base) * 1em;
+}
+
+body{
+	text-align: center;
+	background: #FCFCFC;
+  font-family: sans-serif;
+  font-weight: 100;
+margin: 0;
+padding: 0;
+}
+
+* {
+  transition: all .65s ease;
+  box-sizing: border-box;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Add a black background color to the top navigation */
 .topnav {
     background-color: #271033;
@@ -247,7 +291,9 @@ column {
 
 
 
-
+.post {
+  padding: em(30px);
+}
 
 
 
