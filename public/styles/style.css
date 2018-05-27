@@ -332,7 +332,7 @@ h3 {
   }
 }
 
-::-webkit-scrollbar {
+/*::-webkit-scrollbar {
   background: transparent;
   width: 10px;
 }
@@ -372,7 +372,7 @@ h3 {
   .mdl-card mdl-shadow--2dp demo-card-square {  
     width: calc(100%);
   }
-}
+}*/
 
 #weddingcountdown{
 	padding: 1em
