@@ -191,6 +191,14 @@ h1{
 ********************************************************************
 
 
+
+
+
+
+
+
+
+
 column {
   background: linear-gradient(#aab,#ffa);
   min-height: 100vh;
@@ -200,7 +208,7 @@ column {
 
 .card {
   display: inline-block;
-  margin: 15px;
+  margin: 15px 0px 15px 0px;
   font-size: 14px;
   padding: 5px 100px 25px 30px;
   color: rgba(255, 255, 255, 0.8);
