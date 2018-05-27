@@ -171,7 +171,7 @@ h1{
 	padding: 4px;
 	min-width: 50px;
 	border-radius: 0em;
-	background: #3AB795;
+	background: #0A8754;
 	display: inline-block;
 	opacity: 0.6;
 }
@@ -188,8 +188,10 @@ h1{
 .smalltext{
 	padding-top: 0em;
 	font-size: 1.5em;
-	color: #A5C4D4;
+	/*color: #A5C4D4;*/
+	color: #FFF
 	opacity: 1;
+	text-shadow: 0px;
 }
 
 ********************************************************************
