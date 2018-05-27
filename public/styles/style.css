@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:400,400i,800");
+@import "compass/css3";
 
 /* Add a black background color to the top navigation */
 .topnav {
@@ -228,4 +229,130 @@ column {
 ::-webkit-scrollbar-thumb {
   background: #123;
   border-radius:10px;
+}
+
+
+
+
+
+
+.container {
+  max-width: 75em;
+  margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.columns {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  .item {
+    padding: em(25px);
+    max-width: 47%;
+    background: lighten(#DA2C38, 45%);
+    color: $darkblue;
+    border-bottom: 5px solid #DA2C38;
+    margin-bottom: em(35px);
+    position: relative;
+    overflow: hidden;
+    .item-title {
+      color: darken(#271033, 85%);
+      font-size: 24px;
+      margin: 0 0 5px 0;
+      font-family: $heading-font-family;
+    }
+    .item-image {
+      max-width: 100%;
+    }
+    &:hover, &:focus {
+      background: lighten(#271033, 58%);
+      border-bottom-color: #FFFD77;
+      .social {
+        position: absolute;
+        bottom: -21px;
+        height: auto;
+        z-index: 5;
+        padding: 10px 0;
+        .fa {
+          color: #FFFD77;
+          padding: 0 em(5px);
+          &:hover {
+            color: tint(#271033, 40%);
+          }
+        }
+      }
+    }
+  }
+  @media (max-width: 660px) {
+    .item {
+      max-width: 100%;
+      width: 100%;
+    }
+  }
+   &.thirds {
+     .item {
+        max-width: 31%;
+     }
+     
+     @media (max-width: 770px) {
+       .item {
+         max-width: 48%;
+       }
+       @media (max-width: 660px) {
+       .item {
+         max-width: 100%;
+         width: 100%;
+       }
+     }
+     }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer {
+  background: #593F62;
+  color: white;
+  padding: em(15px);
+  text-align: center;
+  font-size: em(13px);
+  a {
+    color: #A5C4D4;
+    text-decoration: none;
+    border-bottom: 1px solid;
+  }
 }
