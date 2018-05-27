@@ -265,7 +265,7 @@ column {
   }
 }
 
-::-webkit-scrollbar {
+/*::-webkit-scrollbar {
   background: transparent;
   width: 10px;
 }
@@ -274,7 +274,7 @@ column {
   background: #123;
   border-radius:10px;
 }
-
+*/
 
 
 
