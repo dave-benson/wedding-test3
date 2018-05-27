@@ -5,11 +5,11 @@
 //Dummy text from Whedonipsum - www.commercekitchen.com/whedon-ipsum/
 
 //Color definitions
-$lightblue: #D7F7FE;
-$darkblue: #1A577F;
-$medblue: #1F729C;
-$salmon: #FF6067;
-$hellayellow: #F7EE1A;
+$lightblue: #B47EB3;
+$darkblue: #593F62;
+$medblue: 8499B1;
+$salmon: DA2C38;
+$hellayellow: A846A0;
 
 //Typography
 $base-font-size: 16px;
@@ -17,9 +17,9 @@ $base-font-family: 'Nunito', sans-serif;
 $heading-font-family: 'Righteous', sans-serif;
 
 //Convert px to em
-@function em($px, $base: $base-font-size) {
+/*@function em($px, $base: $base-font-size) {
   @return ($px / $base) * 1em;
-}
+}*/
 
 body {
   background: $lightblue;
