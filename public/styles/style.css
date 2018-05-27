@@ -172,6 +172,7 @@ h1{
 	border-radius: 0em;
 	background: #271033;
 	display: inline-block;
+	opacity: 0.6;
 }
 
 #clockdiv div > span{
@@ -180,6 +181,7 @@ h1{
 	border-radius: 0em;
 	background: #A5C4D4;
 	display: inline-block;
+	opacity: 0.6;
 }
 
 .smalltext{
