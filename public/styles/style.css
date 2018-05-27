@@ -254,6 +254,7 @@ column {
   margin: 10px 0px 8px -2px;
   text-shadow: none;
 text-align: left;
+	opacity: 0.8;
 }
 
 .card h2 svg {
@@ -406,7 +407,6 @@ text-align: left;
 
 .footer {
   background: #593F62;
-  color: white;
   padding: em(15px);
   text-align: center;
   font-size: em(13px);
