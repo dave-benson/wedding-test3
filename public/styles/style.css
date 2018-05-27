@@ -208,7 +208,7 @@ column {
 
 .card {
   display: inline-block;
-  margin: 15px 0px 15px 0px;
+  margin: 15px;
   font-size: 14px;
   padding: 5px 100px 25px 30px;
   color: rgba(255, 255, 255, 0.8);
@@ -263,7 +263,7 @@ column {
 
 @media only screen and (max-width: 1200px) {
   .card {  
-    width: calc(50% - 50px);
+    width: calc(45%);
   }
 }
 
