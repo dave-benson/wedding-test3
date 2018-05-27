@@ -243,7 +243,7 @@ column {
 }
 
 .card h2 {
-  color: rgba(0,0,0,0.35);
+  color: #000000;
   font-weight: 800;
   font-size: 28px;
   margin: 10px 0px 8px -2px;
