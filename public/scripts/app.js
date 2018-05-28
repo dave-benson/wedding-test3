@@ -54,6 +54,6 @@ $(function() {
     } else {
       $("body").removeClass("sticky-header");
     }
-    })
+    });
 
 
