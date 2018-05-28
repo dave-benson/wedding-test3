@@ -46,7 +46,7 @@ if (t < 0) {
 
 
 
-$(function() {
+/* $(function() {
   $(window).scroll(function() {
     var winTop = $(window).scrollTop();
     if (winTop >= 30) {
@@ -54,6 +54,6 @@ $(function() {
     } else {
       $("body").removeClass("sticky-header");
     }
-    });
+    }); */
 
 
