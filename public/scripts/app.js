@@ -40,3 +40,20 @@ if (t < 0) {
         document.getElementById("minute").innerHTML ='0' ; 
         document.getElementById("second").innerHTML = '0'; }
 }, 1000);
+
+
+
+
+
+
+$(function() {
+  $(window).scroll(function() {
+    var winTop = $(window).scrollTop();
+    if (winTop >= 30) {
+      $("body").addClass("sticky-header");
+    } else {
+      $("body").removeClass("sticky-header");
+    }
+    })
+
+
