@@ -101,7 +101,12 @@ margin: 0px 0px 0px;
 
 
 
-
+.main {
+  position: relative;
+  background-color: white;
+}
+.main1 {
+	position: relative; }
 
 
 
