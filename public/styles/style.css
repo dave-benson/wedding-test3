@@ -1,54 +1,67 @@
-.webmadewell {
-  background-color: white;
+$scroll-factor : .5;
+
+$background: #333;
+$header-height : 50px;
+$image : "https://pbs.twimg.com/media/B2XTRwtCAAEnqlP.jpg:large";
+
+@import url(https://fonts.googleapis.com/css?family=Alegreya+Sans:100,300,400,500,700,800,900,500italic,400italic,100italic,900italic,300italic,700italic,800italic);
+
+* { box-sizing: border-box; margin: 0; padding: 0; border: 0; }
+
+main {
+  height: 150vh;
+  max-height: 100%;
+  overflow-x: hidden;
+  perspective: 1px;
+  perspective-origin: center top;
+  transform-style: preserve-3d;
+  padding: 0 40px;
+  font: 36px/1.6 Alegreya Sans, serif;
 }
-body {
-  margin: 0;
-}
-.sample-header {
-  position: fixed;
-  left: 0;
-  top: 0;
-  width: 100%;
-  background-image: url("http://webmadewell.com/wp-content/uploads/2018/01/img-bg-sample-parallax-header.jpg");
-  background-position: center;
+
+header {
+  height: 80vh;
+  background: url($image);
   background-size: cover;
-  background-repeat: no-repeat;
-}
-.sample-header::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  background-color: MidnightBlue;
-  opacity: 0.3;
-}
-.sample-header-section {
+  background-position: center center;
   position: relative;
-  padding: 15% 0 10%;
-  max-width: 640px;
-  margin-left: auto;
-  margin-right: auto;
-  color: white;
-  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
-  font-family: "Montserrat", sans-serif;
+  vertical-align: top;
+  transform-origin: center top;
+  transform: 
+    translateZ(-#{$scroll-factor * 2}px)
+    scale(1 + $scroll-factor * 2);
 }
+
+section {
+  min-height: 200vh;
+  background: white;
+  transform: translateZ(0);
+  padding: 10px 0;
+}
+
 h1 {
-  font-weight: 500;
-}
-h2 {
+  font-size: 30px;
   font-weight: 400;
+  padding: 10px 20px;
 }
-.sample-section-wrap {
-  position: relative;
-  background-color: white;
+
+p {
+  font-size: 18px;
+  font-size: 300;
+  padding: 0 20px;
 }
-.sample-section {
-  position: relative;
-  max-width: 640px;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 40px;
+
+a {
+  text-decoration: none;
+  color: dodgerblue;
+}
+
+
+
+
+html, body { height: 100%; }
+
+body {
+  background: $background;
 }
 
